@@ -39,7 +39,7 @@ const AddTransactions = () => {
   const handelExpenseFromSubmit = (event) => {
     event.preventDefault();
 
-    if (expense.incomeText !== "" && expense.incomeAmount) {
+    if (expense.expenseText !== "" && expense.expenseAmount) {
       const newExpenseTransaction = {
         id: uuidv4(),
         expenseText: expense.expenseText,
